@@ -117,7 +117,6 @@ Fork
 
 * Avoid LibMagic
 * Use AWS V4 Signature
-* Handle AWS credentials from file
 
 Licence
 -------
