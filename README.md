@@ -112,6 +112,12 @@ Related projects
 * [s3cmd](http://s3tools.org/s3cmd)
 * [sync_media_s3](http://code.google.com/p/django-command-extensions/wiki/sync_media_s3)
 
+Fork
+----
+
+* Avoid LibMagic
+* Use AWS V4 Signature
+* Handle AWS credentials from file
 
 Licence
 -------
