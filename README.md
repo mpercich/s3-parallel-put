@@ -115,7 +115,7 @@ Related projects
 Fork
 ----
 
-* Avoid LibMagic
+* LibMagic removed
 
 Licence
 -------
