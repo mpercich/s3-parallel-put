@@ -48,8 +48,6 @@ from boto.s3.connection import S3Connection
 from boto.s3.acl import CannedACLStrings
 from boto.utils import compute_md5
 
-# use AWS signature v4
-os.environ['S3_USE_SIGV4'] = 'True'
 DONE_RE = re.compile(r'\AINFO:s3-parallel-put\[putter-\d+\]:\S+\s+->\s+(\S+)\s*\Z')
 
 # These content types are amenable to compression
@@ -453,5 +451,4 @@ def main(argv):
 
 
 if __name__ == '__main__':
-    del os.environ['S3_USE_SIGV4']
     sys.exit(main(sys.argv))

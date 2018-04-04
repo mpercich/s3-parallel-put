@@ -116,7 +116,6 @@ Fork
 ----
 
 * Avoid LibMagic
-* Use AWS V4 Signature
 
 Licence
 -------
